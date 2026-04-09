@@ -1,34 +1,98 @@
-This is a travel website built with [Next.js](https://nextjs.org).
+# Travel Scout — Hilink 🏕️
 
-## Getting Started
+> Your ultimate adventure companion — explore the wild, never get lost.
 
-First, run the development server:
+**Travel Scout** is a modern, responsive landing page for **Hilink**, a hiking and outdoor adventure app that helps climbers and nature enthusiasts explore new locations with confidence. The site showcases the app's core features, camp locations, and community — and directs users to download the app on iOS and Android.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+🌐 **Live Site:** [travel-scout.netlify.app](https://travel-scout.netlify.app)
+
+---
+
+## ✨ Features
+
+- **Hero Section** — Eye-catching headline with camp location details, star ratings (198k reviews), and a download CTA
+- **Camp Listings** — Popular adventure spots with distance, elevation, and joined member counts
+- **Problem & Solution Section** — Explains how Hilink solves the challenge of getting lost in unfamiliar terrain
+- **Interactive Map UI** — Visual route and destination preview with estimated travel time
+- **App Features Showcase** — Highlights four key capabilities of the Hilink mobile app:
+  - 🗺️ Offline maps — no internet connection needed
+  - 📅 Adventure scheduling with friends
+  - 🔬 Augmented reality trail guide
+  - 📍 New locations added monthly
+- **Download CTA** — App Store and Google Play buttons
+- **Footer** — Community links, contact info, and social media
+- **Responsive Navigation** — Desktop nav + mobile hamburger menu
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Usage |
+|---|---|
+| Next.js | React framework (App Router) |
+| TypeScript | Type-safe development |
+| Tailwind CSS | Utility-first styling |
+| Netlify | Deployment & hosting |
+
+---
+
+## 📁 Project Structure
+
+```
+/
+├── app/                  # Next.js App Router pages
+├── components/           # UI sections (Navbar, Hero, Features, Footer, etc.)
+├── public/               # Static assets (images, icons, SVGs)
+├── constants/            # Static data (nav links, features, camp listings)
+└── styles/               # Global styles
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Getting Started
 
-## Learn More
+### Prerequisites
 
-To learn more about Next.js, take a look at the following resources:
+- Node.js 18+
+- npm or yarn
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+# Clone the repository
+git clone https://github.com/your-username/travel-scout.git
+cd travel-scout
 
-## Deploy on Vercel
+# Install dependencies
+npm install
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Start the development server
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Build for Production
+
+```bash
+npm run build
+npm start
+```
+
+---
+
+## 🌍 Deployment
+
+This project is deployed on **Netlify**. To deploy your own:
+
+1. Push your repo to GitHub
+2. Connect it to [Netlify](https://netlify.com)
+3. Set build command: `npm run build`
+4. Set publish directory: `.next`
+5. Deploy!
+
+---
+
+## 📄 License
+
+© 2024 Hilink. All rights reserved.
